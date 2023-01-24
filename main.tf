@@ -5,7 +5,7 @@ secret_key = "6HJkka6xYfazxWfK5KWNYgEN+pz/5POYWjhds1t+"
 }
 
 resource "aws_instance" "one" {
-ami = ""
+ami = "ami-0cca134ec43cf708f"
 instance_type ="t2.micro"
 tags = {
 name = "terraform"
